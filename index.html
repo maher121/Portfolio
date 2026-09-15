@@ -1,69 +1,257 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal academic portfolio of Dr. Maher Khalaf Hussein, Lecturer in Computer Science at the University of Tal Afar." />
-  <meta name="theme-color" content="#07111f" />
-  <title>Dr. Maher Khalaf Hussein | Computer Science Lecturer</title>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#home" aria-label="Go to homepage"><span>MK</span><strong>Maher Khalaf</strong></a>
-      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#research">Research</a>
-        <a class="nav-contact" href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal academic portfolio of Dr. Maher Khalaf Hussein, Lecturer in Computer Science at the University of Tal Afar."
+    />
+    <meta name="theme-color" content="#0b1323" />
+    <title>Dr. Maher Khalaf Hussein | Computer Science Lecturer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#home" aria-label="Go to homepage">
+          <span>MK</span>
+          <strong>Dr. Maher Kh. Hussein</strong>
+        </a>
 
-  <main>
-    <section id="home" class="hero container">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-line"></span> Computer Science · Artificial Intelligence</p>
-        <h1>Building knowledge.<br /><em>Creating impact.</em></h1>
-        <p class="hero-text">I am Dr. Maher Khalaf Hussein, a Computer Science lecturer and researcher focused on intelligent technologies, practical programming, and meaningful digital solutions.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#about">Explore my profile <span>↗</span></a>
-          <a class="text-link" href="#contact">Get in touch <span>→</span></a>
+        <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+          ☰
+        </button>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#research">Research</a>
+          <a class="nav-contact" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Computer Science · AI</p>
+            <h1>Dr. Maher Kh. Hussein<br /><span>Teaching AI with purpose.</span></h1>
+            <p class="hero-text">
+              I am Dr. Maher Khalaf Hussein, a Computer Science lecturer and researcher focused on
+              intelligent systems, practical programming, and meaningful digital solutions.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button primary" href="#about">Explore profile</a>
+              <a class="button secondary" href="#contact">Contact</a>
+            </div>
+
+            <ul class="hero-pills" aria-label="Quick profile facts">
+              <li>Lecturer at University of Telafer</li>
+              <li>Based in Telafer, Iraq</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Portrait of Dr. Maher Khalaf Hussein">
+            <div class="portrait-card">
+              <img src="profile.jpeg" alt="Portrait of Dr. Maher Khalaf Hussein" />
+            </div>
+            <div class="floating-card">
+              <span class="card-label">Focus</span>
+              <strong>Teaching &amp; Research</strong>
+            </div>
+            <div class="floating-badge">PhD · AI</div>
+          </div>
         </div>
-        <div class="hero-meta"><span><i></i> Lecturer at University of Tal Afar</span><span>Based in Nineveh, Iraq</span></div>
-      </div>
-      <div class="hero-visual">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="profile-frame">
-          <img src="profile.jpg" alt="Portrait of Dr. Maher Khalaf Hussein" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-          <div class="profile-placeholder" aria-hidden="true"><span>MK</span><small>Replace with<br />profile.jpg</small></div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="eyebrow-line"></span> About</p>
+            <h2>Curious by nature. Committed by purpose.</h2>
+          </div>
+
+          <div class="about-text">
+            <p>
+              I am a lecturer at the University of Tal Afar in Nineveh, Iraq, with a Ph.D. in
+              Computer Science specializing in Artificial Intelligence. My work connects teaching,
+              research, and technology to help students and organizations address real-world
+              challenges.
+            </p>
+            <p>
+              In addition to teaching and supervising student projects, I serve as the officer of
+              the Technical Training Division at the Computer Center, supporting the development of
+              digital skills across the university.
+            </p>
+          </div>
         </div>
-        <div class="visual-note"><span class="note-number">01</span><span>Teaching<br />& research</span></div>
+      </section>
+
+      <section id="education" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Education</p>
+            <h2>Academic background</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="year">Ph.D.</span>
+              <div>
+                <h3>Computer Science — Artificial Intelligence</h3>
+                <p>University of Mosul · Iraq</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="year">2013</span>
+              <div>
+                <h3>Master of Science in Computer Science</h3>
+                <p>University of Mosul · Iraq</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="year">2008</span>
+              <div>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>Al-Hadbaa University College · Mosul</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Expertise</p>
+            <h2>Technical strengths</h2>
+          </div>
+
+          <div class="skills-grid reveal-on-scroll">
+            <article class="skill-card featured">
+              <div class="skill-icon">🐍</div>
+              <span class="skill-index">01</span>
+              <h4>Python</h4>
+              <p>Programming &amp; AI development</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">📊</div>
+              <span class="skill-index">02</span>
+              <h4>MATLAB</h4>
+              <p>Scientific computing</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">⚙️</div>
+              <span class="skill-index">03</span>
+              <h4>C++</h4>
+              <p>Software development</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">🌐</div>
+              <span class="skill-index">04</span>
+              <h4>HTML · CSS · JS</h4>
+              <p>Web development</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">🧩</div>
+              <span class="skill-index">05</span>
+              <h4>PHP</h4>
+              <p>Backend systems</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">🗄️</div>
+              <span class="skill-index">06</span>
+              <h4>SQL</h4>
+              <p>Data management</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">🧠</div>
+              <span class="skill-index">07</span>
+              <h4>Git · GitHub</h4>
+              <p>Version control</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">📘</div>
+              <span class="skill-index">08</span>
+              <h4>Jupyter</h4>
+              <p>Research workflows</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">📝</div>
+              <span class="skill-index">09</span>
+              <h4>WordPress</h4>
+              <p>Content management</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="section accent">
+        <div class="container research-grid">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Research</p>
+            <h2>Exploring what intelligent systems can make possible.</h2>
+          </div>
+
+          <div class="research-list">
+            <article>
+              <span>01</span>
+              <div>
+                <h3>Artificial Intelligence</h3>
+                <p>Machine learning, deep learning, and intelligent applications.</p>
+              </div>
+            </article>
+            <article>
+              <span>02</span>
+              <div>
+                <h3>Computer Vision</h3>
+                <p>Image classification, pattern recognition, and medical analysis.</p>
+              </div>
+            </article>
+            <article>
+              <span>03</span>
+              <div>
+                <h3>Applied Research</h3>
+                <p>Turning computational methods into practical academic solutions.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container contact-box">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Let’s connect</p>
+          <h2>Have an idea worth exploring?</h2>
+          <p>
+            I welcome opportunities for academic collaboration, research discussion, and knowledge
+            exchange.
+          </p>
+          <a class="mini-link" href="mailto:maher.k.hussein@uotelafer.edu.iq">maher.k.hussein@uotelafer.edu.iq</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© 2026 Dr. Maher Khalaf Hussein</span>
+        <span>University of Telafer · Iraq</span>
+        <a href="#home">Back to top ↑</a>
       </div>
-    </section>
+    </footer>
 
-    <section id="about" class="section container two-column">
-      <div class="section-label"><span>01</span><strong>About me</strong></div>
-      <div class="section-content"><h2>Curious by nature.<br /><em>Committed by purpose.</em></h2><p>I am a lecturer at the University of Tal Afar, Nineveh, Iraq, with a Ph.D. in Computer Science specializing in Artificial Intelligence. My work brings together teaching, research, and technology to help students and organizations solve real-world problems.</p><p>In addition to teaching and supervising student projects, I serve as the officer of the Technical Training Division at the Computer Center, supporting the development of digital skills across the university.</p></div>
-    </section>
-
-    <section id="education" class="section section-dark"><div class="container two-column"><div class="section-label"><span>02</span><strong>Education</strong></div><div class="timeline"><div class="timeline-item"><span class="year">Ph.D.</span><div><h3>Computer Science — Artificial Intelligence</h3><p>University of Mosul · Iraq</p></div></div><div class="timeline-item"><span class="year">2013</span><div><h3>Master of Science in Computer Science</h3><p>University of Mosul · Iraq</p></div></div><div class="timeline-item"><span class="year">2008</span><div><h3>Bachelor of Science in Computer Science</h3><p>Al-Hadbaa University College · Mosul</p></div></div></div></div></section>
-
-    <section id="skills" class="section container two-column"><div class="section-label"><span>03</span><strong>Technical skills</strong></div><div class="skills-grid"><div class="skill-card featured"><span class="skill-index">01</span><h3>Python</h3><p>Programming & AI development</p></div><div class="skill-card"><span class="skill-index">02</span><h3>MATLAB</h3><p>Scientific computing</p></div><div class="skill-card"><span class="skill-index">03</span><h3>C++</h3><p>Software development</p></div><div class="skill-card"><span class="skill-index">04</span><h3>PHP</h3><p>Backend development</p></div><div class="skill-card"><span class="skill-index">05</span><h3>HTML · CSS · JavaScript</h3><p>Web development</p></div><div class="skill-card"><span class="skill-index">06</span><h3>SQL Databases</h3><p>Data management</p></div><div class="skill-card"><span class="skill-index">07</span><h3>Git · GitHub</h3><p>Version control</p></div><div class="skill-card"><span class="skill-index">08</span><h3>Jupyter Notebook</h3><p>Research & experiments</p></div><div class="skill-card"><span class="skill-index">09</span><h3>WordPress</h3><p>Content management</p></div></div></section>
-
-    <section id="research" class="section research-section"><div class="container two-column"><div class="section-label"><span>04</span><strong>Research interests</strong></div><div class="research-content"><h2>Exploring what intelligent systems can make possible.</h2><div class="research-list"><div><span>01</span><h3>Artificial Intelligence</h3><p>Machine learning, deep learning, and intelligent applications.</p></div><div><span>02</span><h3>Computer Vision</h3><p>Image classification, pattern recognition, and medical image analysis.</p></div><div><span>03</span><h3>Applied Research</h3><p>Translating computational methods into useful academic and practical solutions.</p></div></div></div></div></section>
-
-    <section id="contact" class="contact-section"><div class="container contact-inner"><p class="eyebrow"><span class="eyebrow-line"></span> Let’s connect</p><h2>Have an idea worth<br /><em>exploring?</em></h2><p class="contact-copy">I welcome opportunities for academic collaboration, research discussion, and knowledge exchange.</p><a class="button button-light" href="mailto:your-email@example.com">Send me an email <span>↗</span></a></div></section>
-  </main>
-
-  <footer class="footer container"><span>© 2026 Dr. Maher Khalaf Hussein</span><span>University of Tal Afar · Iraq</span><a href="#home">Back to top ↑</a></footer>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
